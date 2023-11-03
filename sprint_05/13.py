@@ -3,7 +3,13 @@
 
 
 def f13(s):
-    pass
+    if s.strip() != s:
+        return True
+    else:
+        return False
+    
+
+# strip() - видаляє пробіли на початку та в кінці рядка.
 
 
 str = '   hi    tech        '

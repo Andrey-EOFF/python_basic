@@ -4,6 +4,9 @@
 # напоминаю везде где встречаются символы - это латинские символы.
 
 def f11(name, password):
-    pass
+    if (name == 'pupkin' and password == '007') or (name == 'plushkin' and password == '999'):
+        return 1
+    else:
+        return 0
 
 print(f11('pupkin', '0037'))
