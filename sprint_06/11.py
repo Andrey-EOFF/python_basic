@@ -7,8 +7,9 @@
 
 # write your code under this line
 
-def f11 (a) :
-    pass
+def f11(n):
+    total = sum(range(n + 1))
+    return total
 
 result = f11(4)
 print (result)

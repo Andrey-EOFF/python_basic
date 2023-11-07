@@ -8,7 +8,14 @@
 # write your code under this line
 
 def f14 (n) :
-    pass
+    out =""
+    i = 0
+    while i <= 10 :
+        i = i + 1
+        if i == n:
+            continue
+        out += str(i) + '_'
+    return out    
 
 result = f14(2)
 print (result)

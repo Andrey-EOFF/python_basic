@@ -8,8 +8,13 @@
 # write your code under this line
 
 def f13 (year1, year2) :
-    pass
+    count = 0
+    while year1 <= year2 :
+        if year1 % 4 == 0:
+            count += 1
+        year1 += 1
+    return count    
 
-result = f13(2000, 2012)
+result = f13(2000, 2023)
 print (result)
 

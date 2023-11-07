@@ -7,7 +7,20 @@
 # write your code under this line
 
 def f08 (n) :
-    pass
+    out = ""
+    i = 1
+    while i <= n : 
+        out+= "*_"
+        i+= 1
+    print(out)    
 
 f08(3) 
+
+def f08(n):
+    pattern = '*_'
+    result = pattern * n
+    print(result)
+
+
+f08(3)
 

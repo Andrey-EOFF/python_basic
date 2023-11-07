@@ -11,8 +11,14 @@
 # write your code under this line
 
 def f09 (a, b) :
-    pass
+    count = 0
+    while a <= b:
+        if a % 2 == 0 :
+            count += 1
+        a+= 1  
+    return count
+            
 
-result = f09(1, 11)
+result = f09(1, 17)
 print (result)
 

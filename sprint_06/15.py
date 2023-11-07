@@ -8,7 +8,11 @@
 # write your code under this line
 
 def f15 (limit) :
-    pass
+    total = 0
+    for num in range(101):
+        total += num
+        if total >= limit:
+            return total
 
 result = f15(12)
 print (result)

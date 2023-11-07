@@ -7,7 +7,12 @@
 # write your code under this line
 
 def f07 () :
-    pass
-
+    out = ""
+    i = 1
+    while i <= 10:
+        out = out + "*_"
+        i+=1
+    print(out)
+    
 f07() 
 

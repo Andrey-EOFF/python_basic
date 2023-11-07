@@ -8,8 +8,14 @@
 # write your code under this line
 
 def f12 (a) :
-    pass
+    count = 1
+    i = 1
+    while i <= a : 
+        count*=i
+        i+=1
+    return count    
+    
 
-result = f12(4)
+result = f12(5)
 print (result)
 

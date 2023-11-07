@@ -11,8 +11,13 @@
 # write your code under this line
 
 def f10 (a, b) :
-   pass
+   count = 0
+   while a <= b :
+      if a > 0 :
+         count +=1
+      a+=1
+   return count      
 
-result = f10(-4, 2)
+result = f10(-4, 6)
 print (result)
 
