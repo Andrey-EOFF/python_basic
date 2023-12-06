@@ -43,4 +43,4 @@ def f04 () :
     foo.clear()
     print (foo)
 
-f04()
+# f04()
