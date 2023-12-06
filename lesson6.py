@@ -71,5 +71,5 @@ def f06 () :
         out += str(i) + '_'
     print (out)
 
-f06()
+# f06()
 
