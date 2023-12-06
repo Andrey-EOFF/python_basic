@@ -5,3 +5,5 @@
 # write your code under this line
 
 m3 = [999, 888, 777, 666, 555, 444, 333, 222, 111]
+
+print(m3[2:4])

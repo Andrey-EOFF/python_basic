@@ -6,8 +6,11 @@
 
 m6 = [999, 888, 777, 666, 555, 444, 333, 222, 111]
 
-def f06 (ct) :
-    pass
+def f06(lst, element):
+    if element in lst:
+        return 1
+    else:
+        return 0
 
-result = f06(m6)
+result = f06(m6, 777)
 print(result)

@@ -4,3 +4,6 @@
 
 # write your code under this line
 
+list = [3, 'test', False]
+
+print(list)
