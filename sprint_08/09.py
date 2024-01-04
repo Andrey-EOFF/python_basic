@@ -4,10 +4,14 @@
 
 # write your code under this line
 
-def f09 (f) :
-    pass
+def f09(lst) :
+    min = lst[0]
+    for i in lst :
+        if i < min :
+            min = i
+    return min        
 
 
-b = [8, 3, 5, 11, 2, 1, 15, 7]
+b = [8, 3, 5, 11, 2, 1, 15, 7, -7]
 result = f09(b)
-print (b)
+print (result)

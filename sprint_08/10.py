@@ -4,10 +4,12 @@
 
 # write your code under this line
 
-def f10 (f) :
-    pass
+def f10(lst):
+    for index, elem in enumerate(lst):
+        if elem < 0:
+            return index
+    return None
 
-
-b = [8, 3, 5, -11, 2, 1, 15, 7]
+b = [8, 3, -5, -11, 2, -1, 15, 7]
 result = f10(b)
-print (b)
+print(result)

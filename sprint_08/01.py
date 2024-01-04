@@ -4,10 +4,13 @@
 
 # write your code under this line
 
-def f01 (f) :
-    pass
+def f01 (lst) :
+    total = 0
+    for elem in lst:
+        total += elem
+    return total
 
 
 b = [ 11, -3, 4, 12, 7, -8]
 result = f01(b)
-print (b)
+print (result)

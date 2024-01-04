@@ -4,10 +4,13 @@
 
 # write your code under this line
 
-def f02 (f) :
-    pass
+def f02 (list) :
+    total = 1
+    for i in list :
+        total = total * i
+    return total    
 
 
-b = [1, 2, 4, 5, 2]
+b = [1, 2, 3]
 result = f02(b)
-print (b)
+print (result)

@@ -4,10 +4,13 @@
 
 # write your code under this line
 
-def f06 (f) :
-    pass
-
+def f06(lst):
+    total = 1
+    for elem in lst:
+        if elem < 10:
+            total *= elem
+    return total
 
 b = [1, 2, 5, 11, 2, 1, 15, 3, 15]
 result = f06(b)
-print (b)
+print(result)
