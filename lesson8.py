@@ -9,7 +9,7 @@ def f01() :
         i = i + 1
     print(s)
 
-# f01()
+f01()
 
 # Знайти суму елементів у List за допомогою цикла for in
 
@@ -20,7 +20,7 @@ def f02() :
         s = s + item
     print(s)
 
-# f02()
+f02()
 
 # Знайти добуток елементів у List за допомогою цикла for in
 
@@ -31,22 +31,19 @@ def f03() :
         p = p * item
     print(p)
 
-# f03()
+f03()
 
 # Знайти мінімальний елемент List
 
 def f04() :
-    lst = [2, 3, -3, 4, 55, 22, -1, 0]
+    lst = [2, 3, -3, 4, 55, 22, -1, -111]
     min = lst[0]
-    for item in lst :
-        if (item < min) :
-            min = item
-    print(min)
-    
-    # min_element = min(lst)
-    # print(min_element)
+    for i in lst :
+        if (i < min) :
+            min = i
+    print(min)        
 
-# f04()
+f04()
 
 # Знайти індекс!!! мінімального елемента у List
 
@@ -58,18 +55,18 @@ def f05() :
             index = i
     print(index)
 
-# f05()
+f05()
 
 # Знайти індекс!!! мінімального елемента у List
 
 def f06() :
-    lst = [200, 301, -3, 4, 55, 22, -1, 0]
+    lst = [200, 301, -3, 4, -7755, 22, -1, 0]
     index = 0
     i = 0
     while i < len(lst) :
-        if (lst[i] > lst[index]) :
+        if (lst[i] < lst[index]) :
             index = i
         i = i + 1
     print(index)
 
-# f06()
+f06()
